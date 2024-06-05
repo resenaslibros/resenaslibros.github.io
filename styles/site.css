@@ -33,3 +33,17 @@ p {
 ul {
     list-style-type: none;
 }
+
+#cookie-consent-banner {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #000;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    display: none; /* Hidden by default */
+}
+#cookie-consent-banner button {
+    border: none;
+}
